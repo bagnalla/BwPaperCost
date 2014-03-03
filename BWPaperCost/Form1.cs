@@ -25,30 +25,6 @@ namespace BWPaperCost
 
         private void btnGo_Click(object sender, EventArgs e)
         {
-            /*string inputString = "";
-
-            for (int i = 0; i < txtBoxInput.Text.Length; i++)
-            {
-                char c = txtBoxInput.Text[i];
-
-                if (char.IsLetter(c))
-                    inputString += c;
-            }
-
-            inputString = inputString.ToLower();
-            
-
-            if (inputString.Contains("clear"))
-            {
-                txtBoxInput.Clear();
-                btnClear_Click(null, null);
-                return;
-            }
-            if (inputString.Contains("quit") || inputString.Contains("exit"))
-            {
-                btnExit_Click(null, null);
-            }*/
-
             string inputString = txtBoxInput.Text.ToLower();
 
             if (inputString.Contains('c') && inputString.Contains('l') && 
